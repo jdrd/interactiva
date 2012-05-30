@@ -10,7 +10,8 @@ import java.awt.event.*;
 import javax.swing.table.*;
 import javax.swing.border.*;
 
-
+//eeeeee
+        
 public class AS extends JFrame{
 
         static String usu =  Inicio.usuario;
@@ -88,14 +89,13 @@ public class AS extends JFrame{
   public void MostrarVentana(){
       // establecer objeto JTextArea
 
-      add(estado);
+
       titulo.setBounds(50, 50, 100, 100);
       add(titulo);
       titulo.setBounds(50, 50, 100, 100);
 
       misdatos();
-      estado.setBounds(60, 100, 420, 200);
-      estado.add(creaBorde( new TitledBorder("Mis Datos") ));        
+    
     }
 
 
